@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+<title>ASSIGNMENT PART1</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {
+  font-family: "Lato", sans-serif; 
+  text-align: justify; 
+  text-justify: inter-word;
+}
+
+body, html {
+  height: 100%;
+  color: #777;
+  line-height: 1.8;
+}
+
+/* Create a Parallax Effect */
+.bgimg-1, .bgimg-2, .bgimg-3 {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1600px) {
+  .bgimg-1, .bgimg-2, .bgimg-3 {
+    background-attachment: scroll;
+    min-height: 400px;
+  }
+}
+</style>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar" id="myNavbar">
+    <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+      <i class="fa fa-bars"></i>
+    </a>
+    <a href="#teamprofile" class="w3-bar-item w3-button w3-hide-small"> TEAM PROFILE</a>
+    <a href="#tools" class="w3-bar-item w3-button w3-hide-small"> PROJECT DESCRIPTION</a>
+    <a href="#industrydata" class="w3-bar-item w3-button w3-hide-small"> DEMONSTRATE OUTCOMES</a>
+    <a href="#itwork" class="w3-bar-item w3-button w3-hide-small">PROJECT JUSTIFICATION</a>
+    <a href="#ittechnologies" class="w3-bar-item w3-button w3-hide-small">RESOURCES AND TOOLS</a>
+    <a href="#projectideas" class="w3-bar-item w3-button w3-hide-small">GROUP CONTRACT</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red">
+      <i class="fa fa-search"></i>
+    </a>
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+    <a href="#teamprofile" class="w3-bar-item w3-button" onclick="toggleFunction()">PROFILE</a>
+    <a href="#industrydata" class="w3-bar-item w3-button" onclick="toggleFunction()">INDUSTRY DATA</a>
+    <a href="#projectidea" class="w3-bar-item w3-button" onclick="toggleFunction()">PROJECT IDEA</a>
+    <a href="#" class="w3-bar-item w3-button">SEARCH</a>
+  </div>
+</div>
+
+
+<!-- Container (Team Profile Section) -->
+<div class="w3-content w3-container w3-padding-64" id="teamprofile">
+  <h3 class="w3-center">TEAM PROFILE</h3>
+  <p> <h5> <center> HD </h5> </center> </p>
+  
+<!-- Group member photos -->
+    <picture>
+      <style>
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 25%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+</style>
+      
+<body>
+<div class="row">
+  <div class="column">
+    <img src="" alt="" style="width:100%" height="250">
+  </div>
+  <div class="column">
+    <img src="" alt="" style="width:100%" height="250">
+  </div>
+  <div class="column">
+    <img src="" alt="" style="width:100%" height="250">
+  </div>
+  <div class="column">
+    <img src="" alt="" style="width:100%" height="250">
+  </div>
+  <div class="column">
+    <img src="" alt="" style="width:100%" height="250">
+  </div>
+  <div class="column">
+    <img src="" alt="" style="width:100%" height="250">
+  </div>
+</div>
+
+<div>
+  <p> <b> Baiwei Liu </b></p>
+  <p> 
+    My Full Name is Baiwei Liu, my English name is “Bailey”, my student email address is s3778909@student.rmit.edu.au. 
+    I have been studying in Australia for 5 years, I came to Australia in 2015 to attend a language school for half a year and then study in high school in 2016, so I'm good at writing analysis, my nationality is China.
+    I’m very interested in Information technology and I love to explore the information about mobile phones. 
+    My passion in IT is to learn new products, new ideas, new methods, I’m willing to learn and explore these new technologies.
+    My strong point on IT is to use html/css to make a website, my weak point on IT is programming. 
+    It's hard for me to make an application use Java, but I believe I can carry on and overcome these problems. 
+    I can contribute to our team by writing analysis about the project and making a web page. 
+    I can also challenge myself to use the Java programming language to contribute to our team, that can also help me learn more about Java.
+  </p>
+
+  <p> <b> Yitao Ma </b></p>
+  <p>
+    My RMIT Student Number is: s3843689
+    My Personal Email address: Jerryma20010613@gmail.com
+    My RMIT email address: s3843689@student.rmit.edu.au
+    Hello, my name is Yi Tao Ma, 'Ethan' is my English name, I am from China and I immigrated to Australia in 2016 and have studied in Australia since ninth grade and finish my year 12 in 2019. 
+    Chinese is my first language and unfortunately, I cannot celebrate most Chinese traditional festivals due to the long distance from Melbourne to China: 8463 km. 
+    Which also makes me miss a lot of delicious Chinese food. Indeed, I missed my home country, but I also try to fit in Australia, learn Australian cultures and many others. 
+    I believe I will be fine during the life of RMIT and Australia.
+    I started to learn how to play the piano when I was 5 years old and I passed the piano level 10 examination. 
+    Sometimes I still play the piano to make sure I do not forget the piano skills. I also love to cook some traditional Chinese food: Fried Noodles/Rice etc. 
+    You know it is well to have some cooking skills to ensure you can keep yourself away from the starving.
+    I often learn about the history of some computers and different kinds of programming. I think the code is very interesting because when I complete a complete program, I will experience an incomparable sense of accomplishment. 
+    Today's world life is inseparable from it, it involves many fields, learning it can let me in the future in a better society. 
+    Although the code and its knowledge are boring, it is the basis of the whole world, so I am still passionate about it.
+    My weakness is java programming and databases, but it is not very weak. I can only say that I am not very skilled. I will work harder to master my weakness this semester, and I believe it will become better.
+    I hope to play the role of web programming and Research (writing) in the project. Of course, it can also help to do some Java and database work.
+  </p>
+
+  <p> <b> Xin Lin </b></p>
+  <p>
+    Student Email: s3710267@student.rmit.edu.au
+    My name is Xin Lin, you can call me Lynn. I am from China, and I came to Australia to study in 2018. 
+    Before that, I finished my international business studies in China. Then I worked for a year. 
+    I found that I was not interested in business, and then came to Australia to continue my study. 
+    This is my second year of studying information technology. In terms of database and Java, I think it needs to be improved. 
+  </p>
+
+  <p> <b> Yuxiang Huang ( Project Leader )</b></p>
+  <p>
+    Student Number: s3751476
+    Student Email: s3751476@student.rmit.edu.au
+    My full name is Yuxiang Huang. I come from China. I came to Australia in 2019 and I finished diploma of IT last year in RMIT. 
+    I think I have a basic understanding of information technology. Some computer games or mobile phone apps will make me interested in their development. As a result, I am passionate about design and development. 
+    My strong point in terms of it is website design and weak points are Java code and database. 
+    So I need to practise java code and database design more to improve myself through this course. 
+    As for the contribution in this group, i hope i can do the website design part. As a team member, i will try my best to help my group complete this project and communicate with team members in time.
+  </p>
+
+  <p> <b> Wenlao Peng </b></p>
+  <p>
+    My full name is Wenlao Peng, my student email address is s3690691@student.rmit.edu.au. I have a big interest in studying IT, because I want to find out how the application works. 
+    I finished my IT diploma last year. My specialty is making websites . I am used to asking team members to finish the work together. 
+    I am better at doing HTML and database. What I'm not good at is making programs about Java. In the new semester, I want to challenge myself and improve my Java ability with the help of the team. 
+    I will actively help the team to complete the task, which is my obligation. 
+    What I hope most is to get high marks in this semester.   
+  </p>
+
+  <p> <b> Hang Yang </b> </p>
+  <p>
+    My full name is Hang Yang, and the preferred name is Bank. 
+    My student email address is s3799719@student.rmit.edu.au. 
+    I come to Australia to study for another 2 years as part of a requirement on my study program in China. 
+    I was inspired by Steve Jobs who gave me the passion for mobile phone and mobile application. 
+    My strong points are coding, editing videos and some html designing. My weak points are database and algorithm implementation. 
+    I would like to develop my database skills through this course. Like all of the members in our group, the challenge is to cooperate with teammates and present a good project. 
+    To contribute in this team, I can do the coding stuff and probably give some advice on how we can improve our project.
+  </p>
+
+</div>
+
+
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off">
+  <a href="#teamprofile" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+  <p> COPYRIGHT &copy; HD 2020 </p>
+  <div class="w3-xlarge w3-section">
+  </div>  
+</footer>
+ 
+<script>
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+// Change style of navbar on scroll
+window.onscroll = function() {myFunction()};
+function myFunction() {
+    var navbar = document.getElementById("myNavbar");
+    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+        navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + " w3-white";
+    } else {
+        navbar.className = navbar.className.replace(" w3-card w3-animate-top w3-white", "");
+    }
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function toggleFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else {
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+</script>
+
+</body>
+</html>
