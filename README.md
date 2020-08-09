@@ -1,2 +1,3 @@
-# BITassignmentpart1
-AR-TH-930-HD
+# Building IT System 
+## Assignment Part1
+### Group: AR-TH-930-HD
